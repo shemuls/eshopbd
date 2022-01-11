@@ -42,51 +42,51 @@ const Footer = () => {
             </Col>
             <Col sm={12} lg={2}>
               <h4 className="footerHeading">Information</h4>
-              <ul class="sFooterLinkWrap m-0 p-0">
-                <li class="sFooterLink">
+              <ul className="sFooterLinkWrap m-0 p-0">
+                <li className="sFooterLink">
                   <a href="about-us.html">About us</a>
                 </li>
-                <li class="sFooterLink">
+                <li className="sFooterLink">
                   <Link to="#">FAQ</Link>
                 </li>
-                <li class="sFooterLink">
+                <li className="sFooterLink">
                   <Link to="#">Delivery Information</Link>
                 </li>
-                <li class="sFooterLink">
+                <li className="sFooterLink">
                   <Link to="#">Contact us</Link>
                 </li>
               </ul>
             </Col>
             <Col sm={12} lg={2}>
               <h4 className="footerHeading">Accounts</h4>
-              <ul class="sFooterLinkWrap m-0 p-0">
-                <li class="sFooterLink">
+              <ul className="sFooterLinkWrap m-0 p-0">
+                <li className="sFooterLink">
                   <a href="about-us.html">My Account</a>
                 </li>
-                <li class="sFooterLink">
+                <li className="sFooterLink">
                   <Link to="#">Order history</Link>
                 </li>
-                <li class="sFooterLink">
+                <li className="sFooterLink">
                   <Link to="#">Whish list</Link>
                 </li>
-                <li class="sFooterLink">
+                <li className="sFooterLink">
                   <Link to="#">Special</Link>
                 </li>
               </ul>
             </Col>
             <Col sm={12} lg={2}>
               <h4 className="footerHeading">Services</h4>
-              <ul class="sFooterLinkWrap m-0 p-0">
-                <li class="sFooterLink">
+              <ul className="sFooterLinkWrap m-0 p-0">
+                <li className="sFooterLink">
                   <a href="about-us.html">Discounts Returns</a>
                 </li>
-                <li class="sFooterLink">
+                <li className="sFooterLink">
                   <Link to="#">Privacy & Policy</Link>
                 </li>
-                <li class="sFooterLink">
+                <li className="sFooterLink">
                   <Link to="#">Customer Service</Link>
                 </li>
-                <li class="sFooterLink">
+                <li className="sFooterLink">
                   <Link to="#">Terms & Condition</Link>
                 </li>
               </ul>

@@ -8,7 +8,7 @@ const CarouselSlide = ({ slideData }) => {
       {Array.isArray(slideData) ? (
         <Carousel className="sCarouselArea">
           {slideData.map((slide) => (
-            <Carousel.Item>
+            <Carousel.Item key={"CarouselItem_" + slide?.id}>
               <img
                 className="d-block sCarouselItem_Image w-100"
                 src={slide?.img}

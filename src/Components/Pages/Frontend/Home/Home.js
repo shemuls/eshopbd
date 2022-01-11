@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { homeSlides } from "../../../../FakeData/FakeData.js";
 import CarouselSlide from "../../../CarouselSlide/CarouselSlide.js";
+import DynamicTab from "../../../DynamicTab/DynamicTab.js";
 import FancyHeading from "../../../FancyHeading/FancyHeading.js";
 
 const Home = () => {
@@ -19,6 +20,12 @@ const Home = () => {
                 title="Our Top Collection"
                 subTitle="Lorem ipsum dolor sed consequence qolur"
               />
+            </Col>
+          </Row>
+
+          <Row className="mt-5">
+            <Col md={12}>
+              <DynamicTab />
             </Col>
           </Row>
         </Container>
