@@ -1,0 +1,20 @@
+.sMainMenuNavbar {
+  cursor: pointer;
+}
+.sMainMenuNavbar .nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  text-transform: uppercase;
+  margin: 0 20px;
+  border-bottom: 2px solid transparent;
+  padding: 14px 0 10px 0 !important;
+}
+.sMainMenuNavbar .nav-link:hover {
+  border-color: #0d6efd;
+  color: #0d6efd !important;
+}
+.sMainMenuNavbar .nav-item.active {
+  color: #0d6efd !important;
+  border-color: #0d6efd;
+}

@@ -1,0 +1,30 @@
+.sTopBar {
+  border-bottom: 1px solid #eee;
+}
+.sTopBar .sContactInfoWrap .sContactItem {
+  margin-left: 10px;
+  color: #777;
+}
+.sTopBar .sContactInfoWrap .sContactItem:hover {
+  color: #0d6efd;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.sTopBar .sContactInfoWrap .sContactItem .sContactItemIcon {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.sHeaderEbtn .sHeaderEbtnItem {
+  color: #777;
+  font-size: 36px;
+  margin-left: 16px;
+}
+.sHeaderEbtn .sHeaderEbtnItem:hover {
+  color: #0d6efd;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.sHeaderMiddleBar {
+  border-bottom: 1px solid #eee;
+}

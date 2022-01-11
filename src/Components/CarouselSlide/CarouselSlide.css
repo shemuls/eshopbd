@@ -1,0 +1,57 @@
+.sCarouselArea .carousel-caption {
+  left: 10%;
+  right: auto;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.sCarouselArea .carousel-caption .sCarouselCaption_Heading {
+  margin-bottom: 25px;
+  padding-top: 25px;
+  color: #555;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  max-width: 1000px;
+}
+.sCarouselArea .carousel-caption .sCarouselCaption_subHeading {
+  font-size: 50px;
+  font-weight: 400;
+  color: #444444;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+.sCarouselArea .carousel-caption .sCarouselCaption_desc {
+  max-width: 350px;
+  font-size: 17px;
+  color: #777777;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 300;
+}
+.sCarouselArea .carousel-control-next,
+.sCarouselArea .carousel-control-prev {
+  top: 46%;
+  bottom: auto;
+  background-color: #0d6efd;
+  width: auto;
+  padding: 6px;
+  opacity: 0;
+  transition: 0.8s;
+}
+.sCarouselArea:hover .carousel-control-next,
+.sCarouselArea:hover .carousel-control-prev {
+  opacity: 0.7;
+}
+.sCarouselArea .carousel-control-next {
+  right: 20px;
+}
+.sCarouselArea .carousel-control-prev {
+  left: 20px;
+}

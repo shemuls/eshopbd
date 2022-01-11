@@ -1,0 +1,25 @@
+.sSearchBoxwrap {
+  padding: 0px;
+  position: relative;
+}
+.sSearchBoxwrap .sSearchBoxInput {
+  width: 100%;
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  color: #777;
+  padding: 10px 15px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.sSearchBoxwrap .sSearchBoxInput:focus {
+  border: 1px solid #f7f7f7;
+  outline: 1px solid #f7f7f7;
+}
+.sSearchBoxwrap .sSearchBoxIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
