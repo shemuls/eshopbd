@@ -3,7 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./Components/Footer/Footer.js";
 import Header from "./Components/Header/Header.js";
-import Home from "./Components/Pages/Home/Home.js";
+import Home from "./Components/Pages/Frontend/Home/Home.js";
 import NotFound from "./Components/Pages/NotFound/NotFound.js";
 
 function App() {
