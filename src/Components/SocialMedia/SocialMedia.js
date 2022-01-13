@@ -7,11 +7,11 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import "./SocialMedia.css";
+import classes from "./SocialMedia.module.css";
 
 const SocialMedia = () => {
   return (
-    <ul className="sSocialMedia m-0 p-0">
+    <ul className={classes.sSocialMedia + " m-0 p-0"}>
       <li>
         <Link to="#">
           <FontAwesomeIcon icon={faFacebook} />

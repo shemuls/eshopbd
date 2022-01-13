@@ -1,0 +1,72 @@
+.sProductGrid_imgWrap {
+  height: 320px;
+  border: 1px solid #eeeeee;
+  position: relative;
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+.sProductGrid_item {
+  margin-bottom: 30px;
+  transition: 1s;
+}
+.sProductGrid_image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sProductGrid_imageContent {
+  z-index: 1;
+}
+.sPercentage {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  justify-content: center;
+  background-color: #ff6285;
+  border-radius: 0 15px 15px 0;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 10px;
+}
+.sProductGrid_title {
+  font-size: 20px;
+  margin: 12px 0 4px;
+}
+.sProductGrid_title a {
+  text-decoration: none;
+  color: #777;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  transition: 0.4s;
+}
+.sProductGrid_title a:hover {
+  color: #0d6efd;
+}
+.oldPrice {
+  font-size: 15px;
+  margin-right: 15px;
+  text-decoration: line-through;
+  color: #777777;
+}
+.newPrice {
+  color: #555;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: "Montserrat";
+}

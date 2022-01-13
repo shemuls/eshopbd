@@ -1,17 +1,25 @@
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import "./SearchBox.css";
+import classes from "./SearchBox.module.css";
 
 const SearchBox = () => {
   return (
-    <div className="sSearchBoxwrap d-felx align-items-center text-center align-content-center">
+    <div
+      className={
+        classes.sSearchBoxwrap +
+        " d-felx align-items-center text-center align-content-center"
+      }
+    >
       <input
-        className="sSearchBoxInput"
+        className={classes.sSearchBoxInput}
         type="text"
         placeholder="Enter your product name"
       />
-      <FontAwesomeIcon className="sSearchBoxIcon colorLight" icon={faSearch} />
+      <FontAwesomeIcon
+        className={classes.sSearchBoxIcon + " colorLight"}
+        icon={faSearch}
+      />
     </div>
   );
 };
