@@ -51,3 +51,33 @@ export const productCategories = [
     img: "https://loopinfosol.in/themeforest/ekka-html-v3/ekka-html/assets/images/cat-banner/4.jpg",
   },
 ];
+
+export const ClientTestimonials = [
+  {
+    id: 1,
+    name: "John lwis",
+    profession: "Job Manager",
+    comment:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  scrambled it to make a type specimen",
+    photo:
+      "https://loopinfosol.in/themeforest/ekka-html-v3/ekka-html/assets/images/testimonial/1.jpg",
+  },
+  {
+    id: 2,
+    name: "Lara Mendis",
+    profession: "Word Manager",
+    comment:
+      "Typesetting industry lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  scrambled it to make a type specimen",
+    photo:
+      "https://loopinfosol.in/themeforest/ekka-html-v3/ekka-html/assets/images/testimonial/2.jpg",
+  },
+  {
+    id: 3,
+    name: "Feargend Rock",
+    profession: "Web Developer",
+    comment:
+      "Galley of type typesetting industry lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  scrambled it to make a type specimen",
+    photo:
+      "https://loopinfosol.in/themeforest/ekka-html-v3/ekka-html/assets/images/testimonial/3.jpg",
+  },
+];

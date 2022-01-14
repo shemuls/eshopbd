@@ -15,6 +15,7 @@ import FancyHeading from "../../../FancyHeading/FancyHeading.js";
 import IconBox from "../../../IconBox/IconBox.js";
 import OfferBanner from "../../../OfferBanner/OfferBanner.js";
 import ProductsGrid from "../../../Shop/ProductsGrid/ProductsGrid.js";
+import TestimonialsSlider from "../../../TestimonialsSlider/TestimonialsSlider.js";
 import TrendingBox from "../../../TrendingBox/TrendingBox.js";
 
 const Home = () => {
@@ -165,6 +166,23 @@ const Home = () => {
       </section>
 
       {/* Client reviews */}
+      <section className="sSection sBgLight">
+        <Container>
+          <Row>
+            <Col md={12} className="text-center mb-4">
+              <FancyHeading
+                title="Client Review"
+                subTitle="What say client about us"
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12}>
+              <TestimonialsSlider />
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   );
 };
