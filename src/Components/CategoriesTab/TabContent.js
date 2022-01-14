@@ -19,7 +19,7 @@ const TabContent = ({ category }) => {
           }
         >
           <Link
-            className="btn btn-primary btn-lg textUppercase"
+            className="btn btn-primary btn-lg textUppercase rounded-0"
             to={"/" + category.name.toLowerCase()}
           >
             View All

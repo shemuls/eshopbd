@@ -1,0 +1,39 @@
+.sOfferBanner {
+  min-height: 620px;
+  width: 100%;
+  background-size: center center;
+}
+.sTitle {
+  font-size: 60px;
+  color: #3474d4;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 800;
+}
+.sSubTitle {
+  font-size: 40px;
+  color: #3474d4;
+  margin-bottom: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.sProductImage {
+  margin-bottom: 20px;
+}
+.sDesc {
+  font-size: 32px;
+  color: #444444;
+  margin-bottom: 16px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.sOfferPrice {
+  font-size: 40px;
+  color: #555;
+  letter-spacing: 1.5px;
+  font-weight: 900;
+  line-height: 1.2;
+}

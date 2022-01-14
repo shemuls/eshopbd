@@ -13,6 +13,7 @@ import CategoriesTab from "../../../CategoriesTab/CategoriesTab.js";
 import DynamicTab from "../../../DynamicTab/DynamicTab.js";
 import FancyHeading from "../../../FancyHeading/FancyHeading.js";
 import IconBox from "../../../IconBox/IconBox.js";
+import OfferBanner from "../../../OfferBanner/OfferBanner.js";
 import TrendingBox from "../../../TrendingBox/TrendingBox.js";
 
 const Home = () => {
@@ -132,6 +133,19 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
+      </section>
+
+      {/* Offer banner */}
+      <section>
+        <OfferBanner
+          bg="https://loopinfosol.in/themeforest/ekka-html-v3/ekka-html/assets/images/offer-image/offer_bg.jpg"
+          title="Sunglasses"
+          subTitle="Super Offer"
+          productImage="https://loopinfosol.in/themeforest/ekka-html-v3/ekka-html/assets/images/offer-image/1.png"
+          info="Acetate Frame Sunglasses"
+          price="40.00 Only"
+          link="#"
+        />
       </section>
     </>
   );
