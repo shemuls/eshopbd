@@ -115,3 +115,9 @@ a:hover {
 .sSection {
   padding: 70px 0;
 }
+
+/* categories tab active css */
+.verticalCategoriesTab__nav .nav-item .nav-link.active h6,
+.verticalCategoriesTab__nav .nav-item .nav-link.active p {
+  color: #fff !important;
+}

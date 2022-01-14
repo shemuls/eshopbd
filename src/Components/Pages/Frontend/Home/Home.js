@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { homeSlides } from "../../../../FakeData/FakeData.js";
 import CarouselSlide from "../../../CarouselSlide/CarouselSlide.js";
+import CategoriesTab from "../../../CategoriesTab/CategoriesTab.js";
 import DynamicTab from "../../../DynamicTab/DynamicTab.js";
 import FancyHeading from "../../../FancyHeading/FancyHeading.js";
 import TrendingBox from "../../../TrendingBox/TrendingBox.js";
@@ -78,6 +79,9 @@ const Home = () => {
                 subTitle="Browse The Collection of Top Categories"
               />
             </Col>
+          </Row>
+          <Row className="mt-4">
+            <CategoriesTab />
           </Row>
         </Container>
       </section>
