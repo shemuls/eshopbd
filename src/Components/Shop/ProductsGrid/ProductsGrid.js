@@ -3,10 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import allProducts from "../../../FakeData/Products/index.js";
 import ProductItem from "../ProductItem/ProductItem.js";
 
-const ProductsGrid = ({ category }) => {
-  const products12 = allProducts.slice(0, 12);
+const ProductsGrid = ({ category, count = 12 }) => {
+  const products12 = allProducts.slice(0, count);
   const [products, setProducts] = useState(products12);
-
   return (
     <div className="sProductGrid_area">
       <Container>

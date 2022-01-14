@@ -14,6 +14,7 @@ import DynamicTab from "../../../DynamicTab/DynamicTab.js";
 import FancyHeading from "../../../FancyHeading/FancyHeading.js";
 import IconBox from "../../../IconBox/IconBox.js";
 import OfferBanner from "../../../OfferBanner/OfferBanner.js";
+import ProductsGrid from "../../../Shop/ProductsGrid/ProductsGrid.js";
 import TrendingBox from "../../../TrendingBox/TrendingBox.js";
 
 const Home = () => {
@@ -147,6 +148,23 @@ const Home = () => {
           link="#"
         />
       </section>
+
+      {/* New Arrivals */}
+      <section className="sSection">
+        <Container>
+          <Row>
+            <Col md={12} className="text-center mb-4">
+              <FancyHeading
+                title="New Arrivals"
+                subTitle="Browse The Collection of Top Products"
+              />
+            </Col>
+          </Row>
+          <ProductsGrid count={4} />
+        </Container>
+      </section>
+
+      {/* Client reviews */}
     </>
   );
 };
