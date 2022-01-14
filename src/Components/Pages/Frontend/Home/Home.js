@@ -1,3 +1,9 @@
+import {
+  faCheckCircle,
+  faFingerprint,
+  faHeadphones,
+  faPlane,
+} from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -6,6 +12,7 @@ import CarouselSlide from "../../../CarouselSlide/CarouselSlide.js";
 import CategoriesTab from "../../../CategoriesTab/CategoriesTab.js";
 import DynamicTab from "../../../DynamicTab/DynamicTab.js";
 import FancyHeading from "../../../FancyHeading/FancyHeading.js";
+import IconBox from "../../../IconBox/IconBox.js";
 import TrendingBox from "../../../TrendingBox/TrendingBox.js";
 
 const Home = () => {
@@ -70,6 +77,7 @@ const Home = () => {
         </Container>
       </section>
 
+      {/* categories tab */}
       <section className="sSection sBgLight">
         <Container>
           <Row>
@@ -82,6 +90,46 @@ const Home = () => {
           </Row>
           <Row className="mt-4">
             <CategoriesTab />
+          </Row>
+        </Container>
+      </section>
+
+      {/* icon box */}
+      <section className="sSection">
+        <Container>
+          <Row>
+            <Col lg={3} md={6} sm={12}>
+              <IconBox
+                title="Free Shipping"
+                description="Free shipping on all US order or order above $200"
+              >
+                {faPlane}
+              </IconBox>
+            </Col>
+            <Col lg={3} md={6} sm={12}>
+              <IconBox
+                title="24X7 Support"
+                description="Contact us 24 hours a day, 7 days a week"
+              >
+                {faHeadphones}
+              </IconBox>
+            </Col>
+            <Col lg={3} md={6} sm={12}>
+              <IconBox
+                title="30 Days Return"
+                description="Simply return it within 30 days for an exchange"
+              >
+                {faCheckCircle}
+              </IconBox>
+            </Col>
+            <Col lg={3} md={6} sm={12}>
+              <IconBox
+                title="Payment Secure"
+                description="Contact us 24 hours a day, 7 days a week"
+              >
+                {faFingerprint}
+              </IconBox>
+            </Col>
           </Row>
         </Container>
       </section>
