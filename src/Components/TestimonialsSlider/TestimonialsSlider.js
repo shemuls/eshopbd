@@ -9,8 +9,11 @@ const TestimonialsSlider = () => {
   return (
     <div className={classes.sTestimoniSliderWrap}>
       <Carousel>
-        {ClientTestimonials.map((testimonial) => (
-          <Carousel.Item className={classes.sTestimonialItem}>
+        {ClientTestimonials.map((testimonial, index) => (
+          <Carousel.Item
+            key={"testiSlide_" + index}
+            className={classes.sTestimonialItem}
+          >
             <Carousel.Caption className={classes.sTestimonialSlideCaption}>
               <p className={classes.sComment}>
                 <FontAwesomeIcon icon={faQuoteLeft} />

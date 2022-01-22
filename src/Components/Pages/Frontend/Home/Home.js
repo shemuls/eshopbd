@@ -8,6 +8,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { homeSlides } from "../../../../FakeData/FakeData.js";
+import BlogGrid from "../../../Blog/BlogGrid/BlogGrid.js";
 import CarouselSlide from "../../../CarouselSlide/CarouselSlide.js";
 import CategoriesTab from "../../../CategoriesTab/CategoriesTab.js";
 import DynamicTab from "../../../DynamicTab/DynamicTab.js";
@@ -179,6 +180,25 @@ const Home = () => {
           <Row>
             <Col md={12}>
               <TestimonialsSlider />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+      {/* Recent Blog */}
+      <section className="sSection">
+        <Container>
+          <Row>
+            <Col md={12} className="text-center mb-4">
+              <FancyHeading
+                title="Recent Blog"
+                subTitle="Stay with us and explore more"
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col md={12}>
+              <BlogGrid />
             </Col>
           </Row>
         </Container>
